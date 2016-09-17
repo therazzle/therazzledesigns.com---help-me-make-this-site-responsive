@@ -1,0 +1,251 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------HEADER STYLES---------------- */
+
+.container {
+    height: 270px;
+    width: 100%;
+    background-color: white;
+}
+
+#logo {
+    float: left;
+    position: relative;
+    margin: 40px 0 0 25%;
+    
+}
+
+nav {
+    float: right;
+    position: relative;
+    margin: 120px 20% 0 0;
+}
+
+
+ul li {
+   display: inline;
+   margin: 0 77px 0 0;
+   font-size: 20pt;
+}
+
+/*-------------Portfolio Section------------------------------ */
+
+section.portfolio {
+    height: 1200px;
+    width: 100%;
+    margin: auto;
+    background-color: #d60000;
+    position: relative;
+}
+
+div.header-content {
+    text-align: center;
+}
+
+.portfolio-headline {
+    color: white;
+    text-align: center;
+    font-size: 50pt;
+    font-weight: 100;
+    display: inline-block;
+    margin-top: 96px;
+}
+
+#profitlab-img {
+    
+    width: 370px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#profitlab-img:hover {
+    box-shadow: 0px 13px 13px 0px rgba(0, 0, 0, 0.6);
+}
+
+
+#overheard-img {
+    width: 370px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#overheard-img:hover {
+    box-shadow: 0px 13px 13px 0px rgba(0, 0, 0, 0.6);
+}
+
+
+#soulnight-img {
+    
+    width: 370px;
+    display: inline-block;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+#soulnight-img:hover {
+    box-shadow: 0px 13px 13px 0px rgba(0, 0, 0, 0.6);
+}
+
+
+.btn {
+    margin-top: 113px;
+    padding: 20px 80px;
+    border-radius: 15px;
+    font-size: 30pt;
+    color: #d60000;
+    font-weight: bold;
+    border-style: none;
+}
+
+.btn:hover {
+    box-shadow: 0px 13px 13px 0px rgba(0, 0, 0, 0.6);
+}
+
+
+
+/*-------------About me section------------------------------ */
+
+
+section.about-me {
+    height: 1000px;
+    width: 100%;   
+    background-color: white
+}
+
+div.about-content {
+
+}
+
+h1 {
+    text-align: center;
+    color: #d60000;
+    font-size: 50pt;
+    font-weight: 100;
+    margin-top: 96px;
+}
+
+
+.portrait {
+    display: inline-block;
+    float: left;
+    margin-left: 250px;
+    margin-top: 50px;
+    height: 700px;
+}
+
+#paragraph-style {
+    display: inline-block;
+    float: right;
+    max-width: 1000px;
+    margin-top: 80px;
+    margin-right: 300px;
+    font-size: 25px
+}
+
+span {
+    color: #d60000;
+}
+
+
+
+/*-------------Contact me section------------------------------ */
+
+
+
+section.contact-me {
+    height: 1000px;
+    width: 100%;
+    margin: auto;
+    background-color: #d60000;
+}
+
+div.contact-content {
+    text-align: center;
+    position: relative;
+    width: 100%
+}
+
+
+h1.contact-headline {
+    color: white;
+    font-size: 50pt;
+    font-weight: 100;
+    display: inline-block;
+    margin-top: 96px;
+    
+}
+
+.subject {
+    display: inline-block;
+    height: 68px;
+    width: 268px;
+    border-radius: 10px;
+   
+}
+
+.email {
+    display: inline-block;
+    height: 68px;
+    width: 268px;
+    border-radius: 10px;
+    margin-left: 300px;
+}
+
+.message {
+    width: 850px;
+    height: 339px;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.submit {
+    width: 246px;
+    height: 68px;
+    margin-top: 33px;
+    border-radius: 15px;
+    font-size: 30pt;
+    color: #d60000;
+    font-weight: bold;
+    border-style: none;
+}
+
+.submit:hover {
+    box-shadow: 0px 13px 13px 0px rgba(0, 0, 0, 0.6);
+}
+
+input::-webkit-input-placeholder {
+    color: #838383 !important;
+    font-weight: bold;
+    font-size: 15pt;
+
+}
+
+footer {
+    height: 350px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.foot-logo {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.foot-nav {
+    margin-top: 55px;
+}
+
+#copyright {
+    margin-top: 65px;
+}
+
